@@ -20,7 +20,7 @@ const Note = ({ notes, removeNote, updateNote }) => {
         </div>
         <div className="info">
           <p>
-            created at : `{note.date.month} /{note.date.year}`
+            created at : "{note.date.month} /{note.date.year}"
           </p>
           <div className="icons">
             <RiCloseCircleLine
