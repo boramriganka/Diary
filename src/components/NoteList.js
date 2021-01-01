@@ -60,10 +60,13 @@ function NoteList() {
       
     let currentMonth = new Date().getMonth() + 1;
     let currentYear = new Date().getFullYear();
-
+    let currentHour = new Date().getHours();
+    let currentMinute = new Date().getMinutes();
 
     
     const time = {
+      minute : currentMinute,
+      hour : currentHour,
       month : currentMonth,
       year : currentYear
     };
