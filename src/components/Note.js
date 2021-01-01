@@ -16,11 +16,11 @@ const Note = ({ notes, removeNote, updateNote }) => {
       <div className="note" key={note.note.id}>
         <div className="main">
           <h1>Note</h1>
-          <p>{note.note.text}</p>
+          <p>"{note.note.text}"</p>
         </div>
         <div className="info">
           <p>
-            created at : "{note.date.month} /{note.date.year}"
+            created at : {note.date.month} /{note.date.year}
           </p>
           <div className="icons">
             <RiCloseCircleLine
